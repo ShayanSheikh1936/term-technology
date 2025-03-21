@@ -159,7 +159,7 @@ p {
 
 /* Showcase */
 #showcase {
-  background: #333 url('../img/pictures/BANNER.jpg') no-repeat center center/cover;
+  background: #333 url('../pictures/BANNER.jpg') no-repeat center center/cover;
   height: 100vh;
   color: #fff;
 }
@@ -216,7 +216,7 @@ p {
 }
 
 #who .who-img {
-  background: url('../img/pictures/360_F_301481839_p4RvuPBeFTeNvDXyl2ez822gZhQ7ZWEF.jpg') no-repeat center center/cover;
+  background: url('../pictures/360_F_301481839_p4RvuPBeFTeNvDXyl2ez822gZhQ7ZWEF.jpg') no-repeat center center/cover;
 }
 
 /* Section: Clients */
