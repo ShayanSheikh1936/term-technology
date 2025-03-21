@@ -1,0 +1,39 @@
+/* Animation styles for the client logos */
+#clients {
+  overflow-x: hidden; /* Ensures logos reveal themselves within container */
+}
+
+#clients .items div {
+  opacity: 0;
+  animation: slideFromLeft 0.8s forwards;
+}
+
+/* Staggered animation delays for each logo */
+#clients .items div:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+#clients .items div:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+#clients .items div:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+#clients .items div:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+/* Slide from left animation */
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+

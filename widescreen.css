@@ -1,0 +1,22 @@
+/* Adjust What We Do items spacing */
+#what .items .item {
+  padding: 2rem;
+}
+
+/* Increase Who We Are image ratio */
+#who .who-img {
+  flex: 2;
+}
+
+#who .who-text {
+  flex: 1;
+}
+
+/* Make the contact form take up more space */
+#contact .map {
+  flex: 2;
+}
+
+#contact .contact-form {
+  flex: 1;
+} 

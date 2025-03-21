@@ -1,0 +1,83 @@
+/* Adjust headings for smaller screens */
+#showcase .l-heading {
+  font-size: 3rem;
+}
+
+.m-heading {
+  font-size: 1.5rem;
+}
+
+/* Stack all flexbox items vertically */
+#what .items {
+  display: block;
+  padding: 1rem;
+}
+
+#what .items .item {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+/* Adjust who we are section */
+#who {
+  display: block;
+}
+
+#who .who-img {
+  display: none;
+}
+
+/* Client logos */
+#clients .items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#clients .items div {
+  padding: 1rem;
+  width: 50%;
+  height: 100px;
+}
+
+/* Contact */
+#contact {
+  display: block;
+}
+
+#contact .map {
+  height: 300px;
+}
+
+/* Navigation */
+#navbar {
+  flex-direction: column;
+  align-items: center;
+  padding: 0.8rem;
+}
+
+#navbar .logo {
+  margin-bottom: 0.8rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#navbar ul {
+  padding: 0.5rem;
+}
+
+#navbar ul li a {
+  padding: 0.5rem 0.7rem;
+}
+
+#navbar .social-icons {
+  margin: 0.5rem 0;
+}
+
+/* Adjust footer social icons for mobile */
+.footer-social {
+  gap: 1.5rem;
+} 
