@@ -181,19 +181,19 @@ p {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8));
 }
 
-/* Section: What We Do */
-#what .items {
+/* Section: services We Do */
+#services .items {
   display: flex;
   padding: 1rem;
 }
 
-#what .items .item {
+#services .items .item {
   flex: 1;
   text-align: center;
   padding: 1rem;
 }
 
-#what .items .item i {
+#services .items .item i {
   background: #007bff;
   padding: 1rem;
   border-radius: 50%;
@@ -201,21 +201,21 @@ p {
   transition: all 0.3s ease;
 }
 
-#what .items .item:hover i {
+#services .items .item:hover i {
   transform: scale(1.1);
   background: #0056b3;
 }
 
-/* Section: Who We Are */
-#who {
+/* Section: about We Are */
+#about {
   display: flex;
 }
 
-#who div {
+#about div {
   flex: 1;
 }
 
-#who .who-img {
+#about .about-img {
   background: url('./pictures/360_F_301481839_p4RvuPBeFTeNvDXyl2ez822gZhQ7ZWEF.jpg') no-repeat center center/cover;
 }
 
@@ -293,7 +293,7 @@ p {
 }
 
 /* Add subtle border to sections */
-#what, #who, #clients, #contact {
+#services, #about, #clients, #contact {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 

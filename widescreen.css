@@ -1,14 +1,14 @@
-/* Adjust What We Do items spacing */
-#what .items .item {
+/* Adjust services We Do items spacing */
+#services .items .item {
   padding: 2rem;
 }
 
-/* Increase Who We Are image ratio */
-#who .who-img {
+/* Increase about We Are image ratio */
+#about .about-img {
   flex: 2;
 }
 
-#who .who-text {
+#about .about-text {
   flex: 1;
 }
 
@@ -20,3 +20,10 @@
 #contact .contact-form {
   flex: 1;
 } 
+#showcase 
+{
+  background: #333 url('./pictures/BANNER.jpg') no-repeat center center/cover;
+}
+#about .about-img {
+  background: url('./pictures/360_F_301481839_p4RvuPBeFTeNvDXyl2ez822gZhQ7ZWEF.jpg') no-repeat center center/cover;
+}

@@ -8,12 +8,12 @@
 }
 
 /* Stack all flexbox items vertically */
-#what .items {
+#services .items {
   display: block;
   padding: 1rem;
 }
 
-#what .items .item {
+#services .items .item {
   margin-bottom: 1.5rem;
   padding: 1.5rem;
   border-radius: 5px;
@@ -21,12 +21,12 @@
   background: #fff;
 }
 
-/* Adjust who we are section */
-#who {
+/* Adjust about we are section */
+#about {
   display: block;
 }
 
-#who .who-img {
+#about .about-img {
   display: none;
 }
 
@@ -81,3 +81,10 @@
 .footer-social {
   gap: 1.5rem;
 } 
+#showcase 
+{
+  background: #333 url('./pictures/BANNER.jpg') no-repeat center center/cover;
+}
+#about .about-img {
+  background: url('./pictures/360_F_301481839_p4RvuPBeFTeNvDXyl2ez822gZhQ7ZWEF.jpg') no-repeat center center/cover;
+}
