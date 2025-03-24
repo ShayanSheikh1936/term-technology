@@ -224,6 +224,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  animation: slideFromLeft ;
 }
 
 #clients .items div {

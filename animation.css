@@ -28,7 +28,7 @@
 /* Slide from left animation */
 @keyframes slideFromLeft {
   from {
-    transform: translateX(-50px);
+    transform: rotateX('angle');
     opacity: 0;
   }
   to {
