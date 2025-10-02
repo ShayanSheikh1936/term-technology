@@ -28,8 +28,8 @@
 /* Slide from left animation */
 @keyframes slideFromLeft {
   from {
-    transform: rotateX('angle');
-    opacity: 0;
+    transform: rotateX(360 deg);
+    transition: 2s;
   }
   to {
     transform: translateX(0);

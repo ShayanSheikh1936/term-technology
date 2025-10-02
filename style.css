@@ -202,7 +202,7 @@ p {
 }
 
 #services .items .item:hover i {
-  transform: scale(1.1);
+  transform: translateX(100px);
   background: #0056b3;
 }
 
@@ -284,13 +284,13 @@ p {
 
 /* Add subtle shadow to cards/sections */
 .item {
-  transition: all 0.3s ease;
+  transition: all 2s ease;
   border-radius: 5px;
 }
 
 .item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transform: rotate(360deg);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Add subtle border to sections */
@@ -329,3 +329,4 @@ p {
 .footer-social a:hover {
   color: #93cb52;
 } 
+
